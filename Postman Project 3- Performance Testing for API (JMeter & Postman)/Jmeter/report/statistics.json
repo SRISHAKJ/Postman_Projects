@@ -1,0 +1,50 @@
+{
+  "Get Users - Stress Test" : {
+    "transaction" : "Get Users - Stress Test",
+    "sampleCount" : 500,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 416.95200000000017,
+    "medianResTime" : 291.5,
+    "minResTime" : 247.0,
+    "maxResTime" : 1892.0,
+    "pct1ResTime" : 633.9000000000001,
+    "pct2ResTime" : 850.4999999999999,
+    "pct3ResTime" : 1563.99,
+    "throughput" : 29.215846675236648,
+    "receivedKBytesPerSec" : 195.92329379455416,
+    "sentKBytesPerSec" : 3.9372918370924386
+  },
+  "Get Users - Basic Load Test" : {
+    "transaction" : "Get Users - Basic Load Test",
+    "sampleCount" : 500,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 448.83400000000006,
+    "medianResTime" : 337.0,
+    "minResTime" : 251.0,
+    "maxResTime" : 2368.0,
+    "pct1ResTime" : 660.9000000000001,
+    "pct2ResTime" : 792.6999999999999,
+    "pct3ResTime" : 1274.6100000000004,
+    "throughput" : 35.842293906810035,
+    "receivedKBytesPerSec" : 1006.2889924955198,
+    "sentKBytesPerSec" : 4.830309139784947
+  },
+  "Total" : {
+    "transaction" : "Total",
+    "sampleCount" : 1000,
+    "errorCount" : 0,
+    "errorPct" : 0.0,
+    "meanResTime" : 432.8930000000003,
+    "medianResTime" : 319.5,
+    "minResTime" : 247.0,
+    "maxResTime" : 2368.0,
+    "pct1ResTime" : 650.0,
+    "pct2ResTime" : 805.8499999999998,
+    "pct3ResTime" : 1549.7600000000002,
+    "throughput" : 58.431693350473296,
+    "receivedKBytesPerSec" : 1016.1717129433504,
+    "sentKBytesPerSec" : 7.874583674184877
+  }
+}

@@ -1,0 +1,456 @@
+{
+	"id": "9f3cc570-408a-4d53-8d34-ddb017e49439",
+	"name": "Performance Test for JSONPlaceholder",
+	"timestamp": "2025-09-11T12:14:39.245Z",
+	"collection_id": "47086788-3132ddb0-83de-4fd0-9025-4c492d5c03e5",
+	"folder_id": 0,
+	"environment_id": "47086788-93f88a4b-3cff-44bf-938d-cda24634b60f",
+	"totalPass": 180,
+	"delay": "1000",
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2025-09-11T12:13:19.491Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b27811af-d839-4a53-a252-5289e4a4846d",
+			"name": "Get Posts",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 207,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response is an array": true,
+				"Response time is less than 3000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Response is an array": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Response time is less than 3000ms": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				187,
+				271,
+				193,
+				206,
+				183,
+				195,
+				196,
+				198,
+				186,
+				191,
+				227,
+				195,
+				200,
+				221,
+				208,
+				322,
+				320,
+				218,
+				200,
+				209,
+				215,
+				218,
+				191,
+				377,
+				205,
+				273,
+				196,
+				199,
+				218,
+				207
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				}
+			]
+		},
+		{
+			"id": "f93a01aa-c717-488b-b74a-49dcd0b93323",
+			"name": "Get Users",
+			"url": "https://jsonplaceholder.typicode.com/users",
+			"time": 190,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Response is an array": true,
+				"Response time is less than 3000ms": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Response is an array": {
+					"pass": 30,
+					"fail": 0
+				},
+				"Response time is less than 3000ms": {
+					"pass": 30,
+					"fail": 0
+				}
+			},
+			"times": [
+				200,
+				195,
+				188,
+				189,
+				187,
+				284,
+				187,
+				186,
+				197,
+				187,
+				188,
+				193,
+				328,
+				209,
+				186,
+				193,
+				187,
+				199,
+				197,
+				311,
+				257,
+				189,
+				199,
+				184,
+				185,
+				209,
+				193,
+				184,
+				209,
+				190
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				},
+				{
+					"Status code is 200": true,
+					"Response is an array": true,
+					"Response time is less than 3000ms": true
+				}
+			]
+		}
+	],
+	"count": 30,
+	"totalTime": 12815,
+	"collection": {
+		"requests": [
+			{
+				"id": "b27811af-d839-4a53-a252-5289e4a4846d",
+				"method": "GET"
+			},
+			{
+				"id": "f93a01aa-c717-488b-b74a-49dcd0b93323",
+				"method": "GET"
+			}
+		]
+	}
+}
